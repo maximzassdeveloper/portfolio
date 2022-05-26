@@ -1,6 +1,6 @@
 <?php
 // $header_class = 'header--main';
-include 'includes/header.php';
+// include 'includes/header.php';
 ?>
   <section id="first" class="first" data-scroll-section data-scroll-section-inview>
     <div class="container">
@@ -69,7 +69,7 @@ include 'includes/header.php';
       <h2 class="title split-text" data-scroll>Проекты</h2>
     </div>
 
-    <?php include './includes/works.php'; ?>
+    <?php // include './includes/works.php'; ?>
 
   </section>
 
@@ -78,7 +78,7 @@ include 'includes/header.php';
 
       <div class="contact-info">
         <h2 class="title split-text" data-scroll>Контакты</h2>
-        <?php include './includes/socials.php'; ?>
+        <?php // include './includes/socials.php'; ?>
 
         <div data-hash="#first" class="contact-arrow arrow" data-scroll>
           <img src="assets/img/arrow-icon.svg" alt="Arrow">
@@ -118,5 +118,5 @@ include 'includes/header.php';
 
 <?php 
 $scripts = '<script type="module" src="../assets/js/three.js"></script>';
-include './includes/footer.php'; 
+// include './includes/footer.php'; 
 ?>
