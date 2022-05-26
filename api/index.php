@@ -1,3 +1,3 @@
 <?php 
 
-echo 'yes';
+require dirname(__DIR__) . '/index.php';

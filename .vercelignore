@@ -3,3 +3,4 @@
 !api
 !vercel.json
 !*.html
+!index.php
