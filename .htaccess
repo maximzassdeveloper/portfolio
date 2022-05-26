@@ -1,0 +1,28 @@
+# RewriteEngine On
+
+# ErrorDocument 404 /404.php
+
+# php_flag display_startup_errors off
+# php_flag display_errors off
+# php_flag html_errors off
+
+# RewriteCond %{REQUEST_FILENAME} !-f
+# RewriteCond %{REQUEST_FILENAME} !-d
+# RewriteRule ^(.*)$ work.php?slug=$1 [L]
+
+# RewriteEngine On
+
+
+
+# RewriteRule ^.*$ ./index.php
+
+RewriteEngine On
+
+# php_flag display_startup_errors on
+# php_flag display_errors on
+# php_flag html_errors on
+
+ErrorDocument 404 /404.php
+
+RewriteRule ^work/([a-zA-Z0-9-/]+)$ work.php?slug=$1
+RewriteRule ^work/([a-zA-Z0-9-/]+)/ work.php?slug=$1
